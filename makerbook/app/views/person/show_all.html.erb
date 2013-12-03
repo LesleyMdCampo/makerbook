@@ -1,5 +1,4 @@
-<h3> Pod 2 </br>
-  <% @persons.each do |perp| %>
-    <span><%= link_to perp.first_name, user_path(perp.id) %></br></span>
-  <% end %>
-</h3>
+<h2> Pod 2 </h2>
+  <p><% @persons.each do |perp| %>
+    <%= link_to perp.full_name, user_path(perp.id) %></br>
+  <% end %></p>
