@@ -1,0 +1,5 @@
+<h3> Pod 2 </br>
+  <% @persons.each do |perp| %>
+    <span><%= link_to perp.first_name, user_path(perp.id) %></br></span>
+  <% end %>
+</h3>
