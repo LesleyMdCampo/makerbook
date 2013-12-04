@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+* {
+    /*border: 1px solid red;*/
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Typography 
+=============================================*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #5C4B51;
+	background-color: #F2EBBF;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Lobster', sans-serif;
+}
+
+/* #Nav
+================================================== */
+
+nav {
+	width: 100%;
+	position: relative;
+	z-index: 1000;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+
+nav ul li {
+	display: inline;
+	border-right: 1px solid #F06060;
+	padding: 6px 6px 6px 6px;
+	margin: 0;
+}
+
+nav a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #5C4B51;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:visited {
+	color: #5C4B51;
+}
+
+nav a:hover {
+	color: #8CBEB2;
+	background-color: #ded6b5;
+}
+
+.nav-last {
+	border-right: none;
+}
+
+/*Body 
+============================================*/
+button {
+	background-color: #F06060;
+	color: #85C2FF;
+}
+
+button:hover {
+	background-color: #8CBEB2;
+	color: #fff;
+}
+
+button a {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #5C4B51;
+}
+
+/*Images
+===========================================*/
+.profile_pic {
+	border: ridge black;
+	border-radius: 40px 10px;
+	-webkit-box-shadow: 0px 0px 15px 1px #5C4B51;
+	box-shadow: 0px 0px 15px 1px #5C4B51;
+}
+
+.profile_thumb {
+	border: ridge #F06060;
+  	border-radius: 20px 10px;
+  	width: 50px;
+}
+
+.thumb_page_divs {
+	width: 100%;
+}
+
+
+/*Footer
+===========================================*/
+footer {
+	color: #F06060;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+
+

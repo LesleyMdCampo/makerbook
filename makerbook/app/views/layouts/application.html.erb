@@ -5,10 +5,26 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
 <body>
-
+	<div id="header-bar">
+		<h1>MakerBook</h1>
+			<nav>
+				<ul>
+          <li><a href="#">Pod 1</a></li>
+          <li><a href="/">Pod 2</a></li>
+          <li><a href="#">Pod 3</a></li>
+          <li><a href="#">Pod 4</a></li>
+          <li><a href="#">Pod 5</a></li>
+          <li class="nav-last"><a href="#">Pod 6</a></li>
+      	</ul>    
+			</nav>
+	</div>
 <%= yield %>
 
+<footer>&copy 2013 | Lesley Martin del Campo</footer>
 </body>
 </html>
